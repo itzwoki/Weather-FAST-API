@@ -4,7 +4,8 @@ from typing import List
 
 from pydantic_schemas.schema import WeahterResponse, ForecastResponse
 
-OPENWEATHERMAP_API_KEY = "5584db190a2f87c5191354b459bec0fd"
+OPENWEATHERMAP_API_KEY = "" // get api key from -> https://openweathermap.org/api // Public API key will only provide current weather // for 7-day-forecast 
+you will need a paid API key.
 BASE_URL = "http://api.openweathermap.org/data/2.5" 
 
 
